@@ -37,7 +37,7 @@ function aveGrade() {
   if (total <= 100 && total >= 80) {
     document.getElementById(
       "result"
-    ).innerHTML = `You're a genuis to get ${total}%`;
+    ).innerHTML = `You're a genius to get ${total}%`;
   }
 
   if (total < 80 && total > 70) {
@@ -49,7 +49,7 @@ function aveGrade() {
   if (total <= 70) {
     document.getElementById(
       "result"
-    ).innerHTML = `I see the work, striving to get higher than ${total}%`;
+    ).innerHTML = `I see the work, strive to get higher than ${total}%`;
   }
 
   if (total < 10 && total > 0) {
